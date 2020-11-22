@@ -24,13 +24,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#" style="color: #ffc36c; font-size: 1em;">關於我們</a>
+            <a class="nav-link" href="#aboutUs" style="color: #ffc36c; font-size: 1em;">關於我們</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #ffc36c; font-size: 1em;">時間</a>
+            <a class="nav-link" href="#aboutTime" style="color: #ffc36c; font-size: 1em;">時間</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #ffc36c; font-size: 1em;">地點</a>
+            <a class="nav-link" href="#localtion" style="color: #ffc36c; font-size: 1em;">地點</a>
           </li>
         </ul>
       </div>
@@ -69,7 +69,7 @@
       <div class="col-12">
         <h3 class="text-center" style="color: #ffc36c;">【 敬邀 】</h1>
       </div>
-      <div class="col-12 my-3 px-0 px-sm-2 px-md-3">
+      <div class="col-12 my-3 px-0 px-sm-2 px-md-3" id="aboutUs">
         <div class="col-12 px-0">
           <div class="card-body " style="color: #ffc36c;">
             <div class="row d-flex justify-content-center">
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4 my-3 px-0 px-sm-2 px-md-3">
+      <div class="col-12 col-lg-4 my-3 px-0 px-sm-2 px-md-3" id="aboutTime">
         <div class="col-12 text-center">
           <div class="card-body px-1" style="color: #ffc36c;">
             <h5 class="card-title">2020年12月19日</h5>
@@ -102,14 +102,14 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4 my-3 px-0 px-sm-2 px-md-3">
+      <div class="col-12 col-lg-4 my-3 px-0 px-sm-2 px-md-3" id="localtion">
         <div class="col-12 text-center">
           <div class="card-body px-1" style="color: #ffc36c;">
             <h5 class="card-title">福宴國際創意美食餐廳</h5>
             <h6 class="card-text">地址：臺中市清水區中山路18號</h6>
             <h6 class="card-text">電話：04 - 2622 8757</h6>
             <h6 class="card-text">
-              <a href="" class=" text-light card-link">更多前往方式...</a>
+              <a href="" data-toggle="modal" data-target="#exampleModalRoad" class=" text-light card-link">更多前往方式...</a>
             </h6>
             <div class="row d-flex justify-content-center mt-3">
               <div class="col-4 col-lg-6">
@@ -125,7 +125,7 @@
       <div class="row mt-3 mx-0 d-flex justify-content-center">
         <div class="col-12 col-sm-6 col-lg-4 my-3 px-0 px-sm-2 px-md-3">
           <div class="card">
-            <a href="https://quenchwedding.com/darricqueena-prewedding/" target="_blank" class="text-muted card-link">
+            <a data-toggle="modal" data-target="#exampleModalCard" class="text-muted card-link">
               <img src="img/囍-logo-01.png" class="card-img-top mt-4" alt="囍-logo-01">
               <div class="card-body">
                 <h5 class="card-title">實體喜帖</h5>
@@ -183,16 +183,107 @@
         <p class="mb-0">Tel：<a href="tel:+886-922193380" class="text-muted card-link">0922-193380</a></p>
         <p class="mb-0">Mail：<a href="mailto:yanpower1008@gmail.com"
             class="text-muted card-link">yanpower1008@gmail.com</a></p>
-        <p>Line ID：<a href="https://line.me/ti/p/nQGL_g5Jcq" class="text-muted card-link">yanpower1008</a></p>
+        <p>Line ID：<a href="https://line.me/ti/p/nQGL_g5Jcq" class="text-muted card-link"
+            target="_blank">yanpower1008</a></p>
         <p class="mb-0">蔡青蓉 </p>
         <p class="mb-0">Tel：<a href="tel:+886-910214875" class="text-muted card-link">0910-214875</a></p>
         <p class="mb-0">Mail：<a href="mailto:puuy10335@gmail.com" class="text-muted card-link">puuy10335@gmail.com</a>
         </p>
-        <p class="mb-0">Line ID：<a href="https://line.me/ti/p/7wVzURxS8v" class="text-muted card-link">bear857</a></p>
+        <p class="mb-0">Line ID：<a href="https://line.me/ti/p/7wVzURxS8v" class="text-muted card-link"
+            target="_blank">bear857</a></p>
       </dd>
     </dl>
   </footer>
-
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">實體喜帖</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 pt-4">
+            <img src="img/Wedding-invitation.jpg" class="img-fluid" alt="喜帖本人">
+          </div>
+          <div class="col-12 pt-4">
+            <img src="img/envelope.jpg" class="img-fluid" alt="喜帖信封">
+          </div>
+          <div class="col-12 pt-4">
+            <img src="img/logo.jpg" class="img-fluid" alt="喜帖logo">
+          </div>
+          <div class="col-12 pt-4">
+            <img src="img/envelope-seal.jpg" class="img-fluid" alt="火漆章">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalRoad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title text-danger" id="exampleModalLabel">福宴國際創意美食餐廳</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          <h3 class="mb-3 text-info">國道一號 高速公路</h3>
+          <p class="mb-0">北上方向</p>
+          <p>由中港交流道(台中178km)下走臺灣大道往沙鹿清水方向---> 過沙鹿工業高級中等學校後，接沙鹿中山路右轉---> 經勞工育樂中心５０公尺後右手邊即可到達。</p>
+          <p class="mb-0">南下方向</p>
+          <p>由中清交流道(大雅174km)下走中清路往沙鹿清水方向---> 經過國道三號沙鹿交流道---> 斜右轉往清水市區---> 下中山路匝道左轉５０公尺後左手邊即可到達。</p>
+          <h3 class="mt-5 mb-3 text-info">國道三號 高速公路</h3>
+          <p class="mb-0">北上南下方向</p>
+          <p>皆由沙鹿交流道(沙鹿176km)下走清水沙鹿方向---> 斜右轉往清水市區---> 下中山路匝道左轉５０公尺後左手邊即可到達。</p>
+          <h3 class="mt-5 mb-3 text-info">台中火車出發 公車</h3>
+          <span class="text-muted font-weight-light">總路程約1.5小時，需悠遊卡/一卡通。</span>
+          <p>步行至臺中車站牌(臺灣大道)---> 搭乘303，304，305號線公車(統聯客運公車，每20分鐘一班，車程80分鐘)---> 搭至中山星河路口下車後，右手邊即可到達。</p>
+          <span class="text-muted font-weight-light">總路程約2小時，需悠遊卡/一卡通。</span>
+          <p>步行至臺中車站牌(臺灣大道)---> 搭乘9號線公車(台中客運公車，每30分鐘一班，車程90分鐘)---> 搭至清水高中(學園街)下車後，往南步行800m(約10分鐘)左手邊即可到達。</p>
+          <h3 class="mt-5 mb-3 text-info">台中火車出發 計程車</h3>
+          <p>總路程約1小時。</p>
+          <h3 class="mt-5 mb-3 text-info">高鐵台中站出發 公車</h3>
+          <span class="text-muted font-weight-light">總路程約2小時，需悠遊卡/一卡通。</span>
+          <p>步行至高鐵臺中站牌---> 搭乘93號線公車(台中客運公車，每30分鐘一班，車程60分鐘)---> 搭至中山星河路口下車後，右手邊即可到達。</p>
+          <h3 class="mt-5 mb-3 text-info">高鐵台中站 火車</h3>
+          <span class="text-muted font-weight-light">總路程約1小時。</span>
+          <p>步行至新烏日車站---> 搭乘復興/區間車---> 抵達清水火車站後，中正街步行350m至中山路右轉後步行300m，左手邊即可到達。</p>
+          <h3 class="mt-5 mb-3 text-info">高鐵台中站出發 計程車</h3>
+          <p>總路程約35分鐘。</p>
+          <h3 class="mt-5 mb-3 text-info">清水火車站出發 步行</h3>
+          <p>中正街步行350m至中山路右轉後步行300m，左手邊即可到達。</p>
+        </div>
+        <div class="modal-footer">
+          <dl class="row d-flex justify-content-start mb-0">
+            <dt class="col-12 col-lg-2">聯絡我們</dt>
+            <dd class="col-12 col-lg-4 pr-5">
+              <p class="mb-0">盧冠諺 </p>
+              <p class="mb-0">Tel：<a href="tel:+886-922193380" class="text-muted card-link">0922-193380</a></p>
+              <p class="mb-0">Mail：<a href="mailto:yanpower1008@gmail.com"
+                  class="text-muted card-link">yanpower1008@gmail.com</a>
+              </p>
+              <p>Line ID：<a href="https://line.me/ti/p/nQGL_g5Jcq" class="text-muted card-link">yanpower1008</a></p>
+            </dd>
+            <dd class="col-12 col-lg-4 pr-5">
+              <p class="mb-0">蔡青蓉 </p>
+              <p class="mb-0">Tel：<a href="tel:+886-910214875" class="text-muted card-link">0910-214875</a></p>
+              <p class="mb-0">Mail：<a href="mailto:puuy10335@gmail.com"
+                  class="text-muted card-link">puuy10335@gmail.com</a>
+              </p>
+              <p class="mb-0">Line ID：<a href="https://line.me/ti/p/7wVzURxS8v" class="text-muted card-link">bear857</a>
+              </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="main.js"></script>
